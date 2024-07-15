@@ -3,7 +3,7 @@ import 'package:app_filmes/service_locator.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  setuoGetIt();
+  setupGetIt();
 
   runApp(const MyApp());
 }

@@ -27,7 +27,7 @@ class Movie {
         duration: json['duration'],
         description: json['description'],
         gender: json['gender'],
-        urlImage: json['urlImage'],
+        urlImage: json['urlImage'] ?? 'No Image',
         comments: ((json['comments'] ?? []) as List)
             .map((item) => MovieComment.fromJson(item))
             .toList(),
